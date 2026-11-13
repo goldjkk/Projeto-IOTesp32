@@ -3,6 +3,7 @@
 > Projeto 2 da disciplina CCM520 – Internet das Coisas (Centro Universitário FEI).
 
 **Integrante:** Matheus Concon de Oliveira (22.124.089-8)
+
 **Link do Wokwi:** <https://wokwi.com/projects/480488370837301249>
 
 ## 1. Descrição
