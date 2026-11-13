@@ -2,9 +2,8 @@
 
 > Projeto 2 da disciplina CCM520 – Internet das Coisas (Centro Universitário FEI).
 
-**Integrantes:** `<nome (RA)>`
-**Link do Wokwi:** `<cole aqui o link do projeto salvo no Wokwi>`
-**Vídeo da demonstração (opcional):** `<link>`
+**Integrante:** Matheus Concon de Oliveira (22.124.089-8)
+**Link do Wokwi:** <https://wokwi.com/projects/480488370837301249>
 
 ## 1. Descrição
 
@@ -123,7 +122,7 @@ O valor é aceito como `1`, `"1"` ou `1.0`. Valores não inteiros (`1.5`), texto
 
 ## 8. Painel
 
-![Painel Estufa inteligente](<captura do painel>)
+![Painel Estufa inteligente](painel.png)
 
 - **Temperatura e umidade do ar** (time series): `attrName IN ('temperature','relativeHumidity')`, com a coluna `metric` separando as séries.
 - **Umidade do solo** (time series): `attrName = 'soilMoisture'`, com uma faixa vermelha abaixo de 30 % (limite do alerta).
@@ -133,7 +132,9 @@ O valor é aceito como `1`, `"1"` ou `1.0`. Valores não inteiros (`1.5`), texto
 
 ## 9. Testes
 
-_Captura do Runner do Postman com a coleção inteira passando e o arquivo de resultados exportado em `postman/`._
+A coleção inteira foi executada no Runner do Postman com a estufa ligada: **125 testes aprovados e 0 falhas** (12/11/2026). O resultado exportado está em `postman/`.
+
+![Runner do Postman](runner.png)
 
 ## 10. Decisões de projeto e limitações
 
@@ -151,7 +152,7 @@ _Captura do Runner do Postman com a coleção inteira passando e o arquivo de re
 
 ## 12. Uso de ferramentas de IA
 
-_Declare aqui, com sinceridade e conforme a orientação do professor, em que partes vocês usaram modelos de linguagem e para quê._
+O Claude (Anthropic) foi usado como apoio na revisão e na redação da documentação final (README), a partir dos arquivos do projeto e do material da disciplina. O conteúdo foi conferido pelo autor.
 
 ## 13. Referências
 
