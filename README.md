@@ -1,4 +1,4 @@
-# Estufa inteligente na plataforma FIWARE — Grupo `unifmath`
+# Estufa inteligente na plataforma FIWARE — Grupo `Matheus`
 
 > Projeto 2 da disciplina CCM520 – Internet das Coisas (Centro Universitário FEI).
 
