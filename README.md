@@ -103,7 +103,7 @@ O valor é aceito como `1`, `"1"` ou `1.0`. Valores não inteiros (`1.5`), texto
 
 ## 6. Como reproduzir
 
-1. **Clone** o repositório e abra o Docker Desktop. Encerre os ambientes das Aulas 8 e 9 (`docker compose down`).
+1. **Clone** o repositório e abra o Docker Desktop. (`docker compose down`).
 2. **Ponte:** `plataforma/mosquitto/mosquitto.conf` já está com a API key `unifmath`.
 3. **Suba o ambiente:** `cd plataforma`, depois `docker compose up -d` e `docker compose ps`. Ao final, os 9 contêineres aparecem como `healthy`. Em `docker compose logs mosquitto`, `Connecting bridge hivemq` aparece só uma vez.
 4. **Teste da ponte:** em um terminal, rode `docker exec -it mosquitto mosquitto_sub -v -t "#"`. No HiveMQ Web Client, publique `oi` em `/json/unifmath/estufa001/attrs`. A mensagem aparece no terminal local.
